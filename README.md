@@ -1,12 +1,13 @@
 # market
 - 轮播图(vue-awesome-swiper)
+
 '''
+
     <swiper-slide v-for="(page,index) in pages" :key="index">
         <div class="iconItem" v-for="(item,index) in page" :key="index">
             <a href="" :style="{backgroundImage:'url('+item.imgUrl+')'}">
               <h6>{{item.title}}</h6>
             </a>
-
         </div>
       </swiper-slide>
 '''
