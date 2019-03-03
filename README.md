@@ -1,4 +1,6 @@
 # market
+- 轮播图
+- 懒加载
 
 > A Vue.js project
 
